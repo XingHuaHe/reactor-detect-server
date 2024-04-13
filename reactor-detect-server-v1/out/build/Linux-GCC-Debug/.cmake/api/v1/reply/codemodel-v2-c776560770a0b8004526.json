@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src"
+				},
+				{
+					"build" : "src/objdetect",
+					"jsonFile" : "directory-src.objdetect-Debug-10c349d83c07af5b993d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/objdetect",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/internet",
+					"jsonFile" : "directory-src.internet-Debug-93e57da082d9c8802c25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/internet",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "test"
+				},
+				{
+					"build" : "test/odtest",
+					"jsonFile" : "directory-test.odtest-Debug-bceb1bae965b347eb764.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "test/odtest",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "test/tcptest",
+					"jsonFile" : "directory-test.tcptest-Debug-fd81a3e91d34d4aed93f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "test/tcptest",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "reactor-detect-server",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "test",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "objdetect",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "internet",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"name" : "test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "client01::@c8cd7debe17e14921bf9",
+					"jsonFile" : "target-client01-Debug-51e42f165e8ce7d77fe0.json",
+					"name" : "client01",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "client02::@c8cd7debe17e14921bf9",
+					"jsonFile" : "target-client02-Debug-07509123806042d6bc5c.json",
+					"name" : "client02",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "client03::@c8cd7debe17e14921bf9",
+					"jsonFile" : "target-client03-Debug-81b9cb07edf5801bfb65.json",
+					"name" : "client03",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "internet::@cf20f20ea777b8d334b4",
+					"jsonFile" : "target-internet-Debug-3594eebc5f73e07e2327.json",
+					"name" : "internet",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "odtest01::@678a948b4870035e02b4",
+					"jsonFile" : "target-odtest01-Debug-adb7a9cb047f44c7f662.json",
+					"name" : "odtest01",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "odtest02::@678a948b4870035e02b4",
+					"jsonFile" : "target-odtest02-Debug-2802653fd4d6b241d6c0.json",
+					"name" : "odtest02",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "odtest03::@678a948b4870035e02b4",
+					"jsonFile" : "target-odtest03-Debug-4b6bb051854ff1a6413f.json",
+					"name" : "odtest03",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ojbdetect::@e3c900640e9f3ac5bc7c",
+					"jsonFile" : "target-ojbdetect-Debug-3a199df0accfd799d0aa.json",
+					"name" : "ojbdetect",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reactor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reactor-Debug-f8c863ac9e54dbfd3487.json",
+					"name" : "reactor",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/xinghua.he/reactor-detect-server/out/build/Linux-GCC-Debug",
+		"source" : "/root/xinghua.he/reactor-detect-server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
